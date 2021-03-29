@@ -20,7 +20,6 @@ class Solution {
     //对撞指针
     int i = 0;
     int j = numbers.size() - 1;
-    vector<int> res;
     while (i <= j) {
       if (numbers[i] + numbers[j] > target)
         j--;
